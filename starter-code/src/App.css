@@ -1,31 +1,72 @@
 .filter-product-table {
 margin: 15%;
 border:1px black solid;
-height:70vh;
-width:35vw;
+height:90vh;
+width:45vw;
 }
 
+
 .search-bar {
-  margin: 2%;
+  margin:2%;
   border:1px blue solid;
-  height:15vh;
-  width:33vw;
+  height:22vh;
+  width:42vw;
 }
-.product-table {
-  margin: 2%;
-  border:1px green solid;
-  height:50vh;
-  width:33vw;
+
+
+.search-box{
   position:relative;
-  top:16vh;
+  bottom:52vh;
+  right:32vw;
+}
+
+
+.search-field{
+  width:30vw;
+  height: 5vh;
+  position:relative;
+  bottom:62vh;
+  left:2vw;
+}
+
+
+.search-message{
+  font-size:2.5vh;
+  position:relative;
+  bottom:60vh;
+  left:5vw;
+}
+
+
+.product-table {
+  margin:2%;
+  border:1px green solid;
+  height:64vh;
+  width:42vw;
+  position:relative;
+  top:22vh;
   right:1vw;
 }
+
+
 .product-category-row {
-  margin: 2%;
+  margin:2%;
   border:1px rgb(97, 191, 223) solid;
-  
+  width:40vw;
+  height:5vh;
 }
-.product-row {
+
+
+.product-item-row {
   margin: 2%;
-border:1px red solid;
+  border:1px red solid;
+  width:40vw;
+  height:5vh;
+  position:relative;
+  right:1vw;
+  top:5vh;
+}
+
+.no-stock {
+  color:red;
 }

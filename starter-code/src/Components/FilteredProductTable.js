@@ -6,7 +6,12 @@ import listOfProducts from '../data.json';
 import SearchBar from './SearchBar';
 
 class FilterProductTable extends Component {
+    constructor()
+    state = {
+        currentUser: null
 
+
+    }
   
   
   
@@ -17,9 +22,6 @@ class FilterProductTable extends Component {
       <div className="filter-product-table">
         
          <SearchBar />
-
-         
-
 
 
       </div>

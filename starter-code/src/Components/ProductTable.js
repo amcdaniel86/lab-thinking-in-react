@@ -3,7 +3,11 @@ import ProductCategoryRow from './ProductCategoryRow';
 
 class ProductTable extends Component {
 
-  
+  state = {
+
+
+      
+  }
   
   
   
@@ -14,6 +18,11 @@ class ProductTable extends Component {
         <ProductCategoryRow />
 
 
+        {/* <h5>Name</h5> */}
+        {/* <h5>Price</h5> */}
+
+        
+        
       </div>
     );
   }
